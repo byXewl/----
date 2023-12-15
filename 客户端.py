@@ -1,7 +1,7 @@
 import socket
 
 socket_clent = socket.socket()
-#链接服务端
+#链接服务 端
 socket_clent.connect(("localhost",8888))
 recv_data = socket_clent.recv(1024)
 print(f"服务端回复的消息是：{recv_data.decode('UTF-8')}")
