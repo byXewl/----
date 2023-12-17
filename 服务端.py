@@ -1,6 +1,6 @@
 import socket
 
-socket_server = socket.socket()
+socket_server = socket.socket() # 默认是tcp的socket
 # 绑定ip和端口
 socket_server.bind(("localhost", 8888))
 # 监听端口
