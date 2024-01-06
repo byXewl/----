@@ -14,6 +14,6 @@ while True:
     recv_data = socket_clent.recv(1024)
     if not recv_data:
         break
-    print(f"服务端回复的消息是：{recv_data.decode('UTF-8')}")
+    print(f"服务端回复的 消息是：{recv_data.decode('UTF-8')}")
 
 socket_clent.close()
